@@ -1,0 +1,23 @@
+#Web Design Process:
+1)Setting Goals and Targets
+2)Figuring Out what to Implement
+	2.1)Features
+	2.2)Screens
+3)Design
+	3.1)Breakpoints/approach
+	3.2)Wireframes: doesn't care about colors
+		3.2.1)Low Fidelity: Just the blueprint like removing parts inserting some instead and not worrying deeply inside it just figuring out.
+		3.2.2)High Fidelity: It is the final design which carries every little thing in detail like the height width size etc. So it is more precise
+4)Development: It is write code part
+5)Launch
+6)Maintenance
+
+
+
+#CSS Variables:
+=>They are the custom variables and not the programmable variables that takes memory.
+:root{
+	--text-color:red;		//--(hyphen)property: value;
+}
+.container{
+	color: var(--text-color);	//use the created variable using var() function as written.

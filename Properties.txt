@@ -1,0 +1,73 @@
+color
+width
+height
+padding
+margins(top, left, right, bottom)
+
+border-width
+border-style
+border-color
+border-radius
+
+font-size
+font-family
+font-weight
+font-style
+
+text-align
+text-transform(uppercase, lowercase, none)
+text-decoration
+text-indent
+line-height
+letter-spacing
+word-spacing
+text-shadow
+
+background(linear-gradient, radial-gradient
+background-size
+background-attachment
+background-image
+background-repeat
+background-position
+background-color
+
+display
+position(relative, static, fixed, absolute, sticky)
+box-sizing(content box, border box)
+min-width
+max-width
+overflow(hidden, visible, scroll, auto)
+
+flex-direction
+order
+flex-wrap
+flex-grow
+flex-shrink
+justify-content
+align-items
+align-content
+align-self
+flex-basic
+flex-flow
+overflow-wrap
+
+transform(translate(),rotate(),scale(),skew(),matrix())
+transition(width 2s height 3s, 2s ease-in-out)
+transition-delay(2s)
+transition-property(width)
+transition-duration(secs)
+
+animation-name(changeShape)
+animation-duration(secs)
+animation-iteration-count(infinite)
+animation-direction(normal, reverse, alternate, alternate-reverse)
+animation-fill-mode(none, forwards, backwards, both)
+animation-timing-function(ease, linear, ease-in, ease-out, ease-in-out, cubic-Bezier)
+animation-delay
+@keyframes changeShape{
+	from{
+	}
+	to{
+	}
+}
+transform(perspective(400px))
